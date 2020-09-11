@@ -8,7 +8,7 @@ const homeController = {
             const { comprimento, temperatura, coeficiente } = req.body
             let l = comprimento;
             let t = temperatura
-            let c = 0.00012
+            let c = coeficiente
 
             let linear = l + (l * c * t);
 
