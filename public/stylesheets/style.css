@@ -1,0 +1,42 @@
+#header {
+    display: flex;
+    width: 100vw;
+    background-color: dark !important;
+    justify-content: start !important;
+}
+
+body {
+    background-color: rgb(197, 194, 194) !important;
+}
+
+#titulo {
+    color: rgb(228, 225, 225);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#footerTitulo {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(228, 225, 225);
+}
+
+#calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
